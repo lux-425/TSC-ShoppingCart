@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "name":"Video Game",
+    "price": 39.99,
+    "imgUrl": "/imgs/game.jpg"
+  },
+    {
+    "id":2,
+    "name":"Manga",
+    "price": 9.99,
+    "imgUrl": "/imgs/manga.jpg"
+  },
+    {
+    "id":3,
+    "name":"Watermelon",
+    "price": 1.42,
+    "imgUrl": "/imgs/watermelon.jpg"
+  },
+    {
+    "id":4,
+    "name":"Lemonade",
+    "price": 1.25,
+    "imgUrl": "/imgs/lemonade.jpg"
+  }
+]
