@@ -7,10 +7,12 @@ import { About } from "./pages/About"
 
 import { NavBar } from './components/NavBar'
 
+import { ShoppingCartProvider } from "./context/ShoppingCartContext"
+
 function App() {
 
   return (
-    <>
+    <ShoppingCartProvider>
       <NavBar />
       <Container className="mb-4">
         <Routes>
@@ -19,7 +21,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
         </Routes>
       </Container>
-    </>
+    </ShoppingCartProvider>
   )
 }
 
